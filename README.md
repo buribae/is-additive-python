@@ -21,4 +21,5 @@ python is_additive.py {argument}
 ```
 
 #### Accepted Argument
-is_additive.py only accepts only one first argument as the input.
+- is_additive.py only accepts only one first argument as the input.
+- Only integer type works for input.
