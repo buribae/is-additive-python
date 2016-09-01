@@ -43,7 +43,14 @@ def is_additive(primes):
 
 
 if __name__ == "__main__":
-	start = time.time()
-	print is_additive(primes_of(int(sys.argv[1])))
-	end = time.time()
-	print "elapsed %ss" % str(end-start)
+	# Check argument type
+	try:
+		number = int(sys.argv[1])
+		start = time.time()
+		print is_additive(primes_of(number))
+
+		end = time.time()
+		print "elapsed %ss" % str(end-start)
+		
+	except ValueError:
+		print("Only integer type is accepted")
