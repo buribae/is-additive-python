@@ -23,3 +23,11 @@ python is_additive.py {argument}
 #### Accepted Argument
 - is_additive.py only accepts only one first argument as the input.
 - Only integer type works for input.
+
+##secret(x)
+==========================
+You can also change secret(x) to see different results.
+@Define Additive: secret(x+y) = secret(x) + secret(y)
+Example:
+(secret(x): return x) is additive
+(secret(x): return x+x) is additive
